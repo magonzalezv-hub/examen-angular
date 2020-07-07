@@ -6,11 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./listaEmpleados.component.css']
 })
 export class ListaComponent {
-  public usuarios: any[] = [];
+  public user: any[] = [];
 
   constructor(
 
-  ) { }
-
- 
+  ) { } 
 }

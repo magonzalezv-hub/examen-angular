@@ -1,0 +1,16 @@
+.sizeInput {
+    margin: 15px;
+    width: 30%;
+}
+
+.buttonProp {
+    margin-left: 8px;
+    font-size: 14px;
+    justify-content: center;
+    color: mediumslateblue;
+    width: 50%;
+}
+
+.row {
+    margin: 8px;
+}

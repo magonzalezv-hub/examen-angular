@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroupDirective, NgForm, Validators, FormGroup } from '@angular/forms';
-import { Router } from '@angular/router';
-
 
 @Component({
-  selector: 'app-agragarEmpleado',
+  selector: 'app-agregarEmpleado',
   templateUrl: './agregarEmpleado.component.html',
   styleUrls: ['./agregarEmpleado.component.css']
 })

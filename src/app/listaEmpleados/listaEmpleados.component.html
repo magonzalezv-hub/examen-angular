@@ -1,4 +1,4 @@
-<h1 class="mt-4">Lista de empleados</h1>
+<h3 class="mt-4">Lista de empleados</h3>
 <hr/>
 <div class="row">
     <div class="col">
@@ -15,14 +15,14 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let usuario of usuarios">
-                        <th scope="row">{{ usuario.id }}</th>
-                        <td scope="row">{{ usuario.data.nombre }}</td>
-                        <td scope="row">{{ usuario.data.apellidoPaterno }}</td>
-                        <td scope="row">{{ usuario.data.apellidoMaterno }}</td>
-                        <td>{{ usuario.data.email }}</td>
+                    <tr *ngFor="let user of user">
+                    <th scope="row">{{ user.id }}</th>
+                        <td scope="row">{{ user.data.nombre }}</td>
+                        <td scope="row">{{ user.data.apellidoPaterno }}</td>
+                        <td scope="row">{{ user.data.apellidoMaterno }}</td>
+                        <td>{{ user.data.email }}</td>
                         <td>
-                        <button class="btn btn-danger" type="button" (click)="borrar( usuario.id )"><i class="fas fa-trash-alt"></i></button>
+                        <button class="btn btn-danger" type="button">Eliminar</button>
                         </td>
                     </tr>
                 </tbody>
